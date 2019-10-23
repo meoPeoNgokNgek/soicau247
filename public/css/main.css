@@ -1,0 +1,42 @@
+body > * {
+    margin-top: 10px;
+}
+
+body {
+    background: url("../imgs/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+#header {
+    text-align: center;
+    background: url("../imgs/logo.jpg") center center no-repeat;
+    width: 100%;
+    height: 20vh;
+    background-size: contain;
+}
+
+#menu {
+
+}
+
+
+#menu button {
+    width: 40%;
+    height: 20vh;
+    border-radius: 10px;
+    font-size: 40px;
+}
+  
+#menu button:hover {
+    cursor: pointer;
+}
+
+#content {
+    min-height: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#footer {
+
+}
